@@ -169,22 +169,6 @@ npm run build
 npm audit
 ```
 
-ดูผลทดสอบและขั้นตอนตรวจ CRUD ผ่านหน้าเว็บใน [docs/TESTING.md](./docs/TESTING.md)
-
-โปรเจกต์นี้เป็นระบบสาธิตสำหรับรันในเครื่อง โดย dev/start ผูกกับ 127.0.0.1 ยังไม่มีระบบล็อกอิน หากนำไปเปิดให้ใช้งานร่วมกันต้องเพิ่ม authentication และ authorization ก่อน
-
-## Git และ GitHub
-
-มี `.gitignore` สำหรับ node_modules, build output, `.env`, ฐานข้อมูล และ logs ส่วน `.env.example`, migrations, source และ screenshot เก็บใน Git ได้
-
-หากยังไม่มี GitHub Repository ให้ติดตั้ง GitHub CLI จาก [เว็บไซต์ทางการ](https://cli.github.com/) แล้วเปิด Terminal ใหม่ในโฟลเดอร์โปรเจกต์:
-
-```bash
-gh auth login
-gh repo create student-management-crud --public --source=. --remote=origin --push
-```
-
-หลัง push ให้ตรวจว่า repository เป็น Public และ README แสดงภาษาไทยและภาพ `docs/images/home.png` ถูกต้อง ไม่ commit credential จริงหรือฐานข้อมูลส่วนบุคคล
 
 ## ผู้จัดทำ
 
