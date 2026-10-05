@@ -39,4 +39,4 @@
 
 ## GitHub
 
-เครื่องนี้ไม่มี GitHub CLI และ browser แสดงหน้าลงชื่อเข้าใช้ GitHub ตัว connector เชื่อมต่อบัญชีได้แต่ไม่มีคำสั่งสร้าง repository จึงยังไม่ได้สร้างหรือ push repository และยังตรวจ README บน GitHub ไม่ได้ คำสั่ง authentication และสร้าง Public Repository อยู่ใน README
+เผยแพร่ด้วย GitHub CLI โดยใช้บัญชี Jessadaruk ที่ลงชื่อเข้าใช้แล้ว Repository: https://github.com/Jessadaruk/student-management-crud บน branch main

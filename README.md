@@ -2,6 +2,8 @@
 
 ระบบจัดการข้อมูลนักศึกษาด้วย Next.js, TypeScript, Tailwind CSS, Prisma ORM และ SQLite รองรับการเพิ่ม ดู แก้ไข และลบข้อมูล ใช้ภาษาไทยเป็นหลัก พร้อมค้นหาชื่อ รหัสนักศึกษา และสาขา
 
+GitHub Repository: [Jessadaruk/student-management-crud](https://github.com/Jessadaruk/student-management-crud)
+
 ศึกษาโครงสร้างและแนวทาง CRUD จาก [บทเรียน Next.js CRUD ของ IT NKC](https://it-nkc.github.io/nextjs-crud/) ใช้ App Router และ Server Actions ตามแนวทางตัวอย่าง โดยเลือก Prisma 6.19.3 เพื่อใช้ SQLite ผ่าน Prisma Client ได้โดยตรง และเพิ่ม validation/การจัดการข้อผิดพลาด
 
 ## ตัวอย่างหน้าจอ
@@ -37,10 +39,10 @@
 
 ## การติดตั้ง
 
-เมื่อเผยแพร่ repository แล้ว ให้แทน `<repository-url>` ด้วย URL จริง:
+Clone repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Jessadaruk/student-management-crud.git
 cd student-management-crud
 npm install
 ```
