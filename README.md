@@ -10,7 +10,6 @@ GitHub Repository: [Jessadaruk/student-management-crud](https://github.com/Jessa
 
 ![หน้าจอ Student Management System](./docs/images/home.png)
 
-ภาพนี้ถ่ายจากหน้าเว็บที่รันจริงในเครื่อง พร้อมข้อมูลตัวอย่างหลัง seed
 
 ## ฟังก์ชันของระบบ
 
